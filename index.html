@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEIMOS DESIGN — Цифровая студия дизайна и разработки</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="studio-backdrop"></div>
+  <div class="bg-grid"></div>
+    <div class="side-ambient-glow"></div>
+  <canvas id="ambient3dCanvas"></canvas>
+
+  <header>
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark">D</span>
+        <span>DEIMOS DESIGN</span>
+      </a>
+
+      <nav>
+        <a href="#services">Услуги</a>
+        <a href="#works">Работы</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+
+      <div class="status-pill">
+        <span class="status-dot"></span>
+        <span>Открыт к заказам</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Deimos Design Studio</div>
+        <h1>
+          Точная геометрия<br />
+          <span>цифрового дизайна</span>
+        </h1>
+        <p class="hero-desc">
+          Создаём выразительные веб-сайты, графику в Photoshop и плавные 2D-анимации.
+          Минимализм, выверенная структура и внимание к каждому пикселю.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-gold">
+            <span>Обсудить проект</span>
+            <span>→</span>
+          </a>
+          <a href="#works" class="btn-ghost">Смотреть работы</a>
+        </div>
+      </div>
+
+      <div class="cube-stage">
+        <div class="orbit-rings"></div>
+        <canvas id="rubikCanvas"></canvas>
+        <div class="cube-caption">3×3×3 Obsidian &amp; Chrome • Drag to Rotate</div>
+      </div>
+    </section>
+
+    <section id="services" class="block">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Направления</div>
+          <h2 class="section-title">Услуги студии</h2>
+        </div>
+        <p class="section-sub">
+          Полный цикл визуальной упаковки — от концепта и графики до живого интерактивного сайта.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card" data-tilt>
+          <span class="service-num">01 / WEB DEVELOPMENT</span>
+          <h3>Веб-разработка</h3>
+          <p>
+            Современные промо-сайты, лендинги и портфолио с плавной анимацией,
+            адаптивной вёрсткой и чистой архитектурой кода.
+          </p>
+          <div class="service-tags">
+            <span class="tag">Landing Page</span>
+            <span class="tag">Interactive UI</span>
+            <span class="tag">Responsive</span>
+          </div>
+        </article>
+
+        <article class="service-card" data-tilt>
+          <span class="service-num">02 / GRAPHIC DESIGN</span>
+          <h3>Графический дизайн</h3>
+          <p>
+            Оформление соцсетей, баннеры, аватарки, обложки и ретушь в Adobe Photoshop
+            с индивидуальной стилистикой и акцентом на детали.
+          </p>
+          <div class="service-tags">
+            <span class="tag">Photoshop</span>
+            <span class="tag">Баннеры &amp; Авы</span>
+            <span class="tag">Брендинг</span>
+          </div>
+        </article>
+
+        <article class="service-card" data-tilt>
+          <span class="service-num">03 / MOTION &amp; 2D</span>
+          <h3>2D-анимации</h3>
+          <p>
+            Динамичные моушн-ролики, анимированные баннеры, логотипы и микровзаимодействия,
+            удерживающие внимание зрителя с первых секунд.
+          </p>
+          <div class="service-tags">
+            <span class="tag">2D Motion</span>
+            <span class="tag">Анимация UI</span>
+            <span class="tag">Визуальные эффекты</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="works" class="block">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Портфолио</div>
+          <h2 class="section-title">Избранные работы</h2>
+        </div>
+        <p class="section-sub">
+          Кейсы в области веб-разработки, графического оформления и интерактивного дизайна.
+        </p>
+      </div>
+
+      
+                              <div class="works-grid">
+        <article class="work-card">
+          <div class="work-preview">
+            <img src="work2.png" alt="Deimos Design — Лендинг графической студии" />
+          </div>
+          <div class="work-info">
+            <div>
+              <h3>Deimos Design — Лендинг графической студии</h3>
+              <p>Тёмная эстетика, 3D-графика, оформление соцсетей и визуальный код</p>
+            </div>
+            <span class="work-year">Web / Design</span>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-preview">
+            <img src="work1.png" alt="Fresh Bar — Интерактивный промо-сайт" />
+          </div>
+          <div class="work-info">
+            <div>
+              <h3>Fresh Bar — Интерактивный промо-сайт</h3>
+              <p>Динамическая смена вкусов, цветовых тем и плавающая витрина</p>
+            </div>
+            <span class="work-year">Web / UI</span>
+          </div>
+        </article>
+      </div>
+
+
+
+
+    </section>
+
+
+
+      <section id="contact" class="block">
+      <div class="contact-box">
+        <div>
+          <div class="eyebrow">Связаться со мной</div>
+          <h2>Готовы обсудить ваш проект?</h2>
+          <p>
+            Напишите в личные сообщения Telegram по заказам дизайна или загляните в канал студии, чтобы следить за новыми работами.
+          </p>
+        </div>
+
+        <div class="hero-actions">
+          <a href="https://t.me" target="_blank" rel="noopener noreferrer" class="btn-gold">
+            <span>Написать в ЛС (@Deimoss_Design)</span>
+            <span>↗</span>
+          </a>
+          <a href="https://t.me/DeimosDesign" target="_blank" rel="noopener noreferrer" class="btn-ghost">
+            <span>Telegram-канал</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 DEIMOS DESIGN. Все права защищены.</span>
+      <div style="display: flex; gap: 20px;">
+        <a href="https://t.me/DeimosDesign" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); text-decoration: none;">Канал: @DeimosDesign</a>
+        <a href="https://t.me" target="_blank" rel="noopener noreferrer" style="color: var(--text-main); text-decoration: none;">ЛС: @Deimoss_Design</a>
+      </div>
+    </div>
+  </footer>
+
+    <div class="container footer-inner">
+      <span>© 2026 DEIMOS DESIGN. Все права защищены.</span>
+      <span>Black &amp; Gold Edition</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
